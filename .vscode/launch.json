@@ -21,12 +21,12 @@
       "name": "Python: Attach Remote",
       "type": "python",
       "request": "attach",
-      "port": 5678,
-      "host": "homeassistant.local",
+      "port": 8123,
+      "host": "barn.local",
       "pathMappings": [
         {
           "localRoot": "${workspaceFolder}",
-          "remoteRoot": "/usr/src/homeassistant"
+          "remoteRoot": "/home/dk/homeassistant"
         }
       ]
     }

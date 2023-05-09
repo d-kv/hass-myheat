@@ -30,7 +30,7 @@ BINARY_SENSOR = "binary_sensor"
 SENSOR = "sensor"
 SWITCH = "switch"
 
-PLATFORMS = [Platform.CLIMATE]
+PLATFORMS = [Platform.CLIMATE, Platform.SENSOR]
 
 # Defaults
 DEFAULT_NAME = DOMAIN
